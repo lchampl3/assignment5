@@ -11,21 +11,32 @@
             font-style: oblique
         }
 
-
-        ol li h3 {
-            color: green;
+        .flexo {
+            display: flex;
         }
-
+        flexa {
+            display:flex;
+            flex-direction: column;
+        }
+        ol li h3 {
+            color: cornsilk;
+        }
+        div img {
+            width: 150px;
+                height: 150px;
+        }    
+        
+        
     </style>
 
 </head>
 
 <body>
- <header>
+    <header>
         <nav>
             <div>
 
-                <a href="index.html"><img src="images/navdog.png" alt="site logo dog" height="100"></a>
+                <a href="index.html"><img src="images/navdog.png" alt="site logo dog" height="100" ></a>
 
                 <div class="navo">
                     <a href="dogrankings.html">Dog Rankings</a>
@@ -43,26 +54,27 @@
     <ol>
         <li>
             <h3>Mario Kart</h3>
-
-            <img src="images/mariokartthedog.jpg" alt="Mario Kart the dog" width=300>
+<div class="flexo">
+            <img src="images/mariokartthedog.jpg" alt="Mario Kart the dog">
             <p>This is Mario Kart. You might be surprised to learn that he is the best dog, but he really is. There simply is no competition when it comes to Mario Kart the dog.</p>
+            </div>
         </li>
         <li>
             <h3>Big Stinky</h3>
-
-            <img src="images/stinky.jpeg" alt="Big Stinky" width=300>
-            <p>Big Stinky says he does not smell, but we know he is lying.</p>
+            <div class="flexo">
+                <img src="images/stinky.jpeg" alt="Big Stinky" >
+                <p>Big Stinky says he does not smell, but we know he is lying.</p>
+            </div>
         </li>
         <li>
             <h3>Yup!</h3>
-
-            <img src="images/heavyman.jpg" alt="yep!" width=300>
+            <div class="flexo">
+            <img src="images/heavyman.jpg" alt="yep!" >
             <p>This is Yup! the dog. This one's here to stay for sure. Yup! doesn't plan on going anywhere anytime soon. He doesn't pay rent!</p>
+            </div>
         </li>
     </ol>
     <p>&nbsp;</p>
     <footer>Those were some of the best dogs. Watch this space - there's more where that came from!</footer>
 
-</body>
-
-</html>
+</body></html>

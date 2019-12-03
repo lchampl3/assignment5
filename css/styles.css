@@ -1,10 +1,25 @@
 body {
-    background-color: antiquewhite;
+/*    background-color: antiquewhite;*/
     font-family:sans-serif;
     display: flex;
-    flex-direction: column
+    flex-direction: column;
+       
+    
+    
+    
+    background-image:  linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(../images/stylishpooch.jpeg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    flex-direction: column;
+        
 }
-      
+    
+a, div, p, header, footer, main, h1 {
+    color:aliceblue
+}
+
+
 li {
     color: peru;
 }
