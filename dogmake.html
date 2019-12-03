@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Cool Dogs</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+    <style>
+        .teslared {
+            color: rgb(211, 54, 48);
+        }
+
+        .bold {
+            font-family: serif;
+            font-size: 50px;
+        }
+
+        .boxed {
+            /*
+            margin-left: auto;
+            margin-right: auto;
+            width: 80%;
+*/
+            padding: 10px 10px 10px 10px;
+            margin: auto auto;
+            border: 5px solid;
+        }
+
+        li {
+            color: deeppink;
+        }
+
+        .tesla-font-big {
+            font-size: 30px;
+        }
+
+        #content p {
+            color: #00ff00;
+        }
+
+        /*
+        .right {
+            justify-content: flex-end
+*/
+        
+
+        /*
+  
+*/
+
+        /*
+   a:hover {
+       font-family: fantasy}
+*/
+    form p {
+            display:flex;
+        }        
+        form label {
+            flex-basis: 33%;
+        }
+        form input, textarea, select {
+            flex: 1;
+            margin: 0 1em;
+            border-radius: 5px;
+        }
+        form select {
+            text-align: center;
+        }
+/*
+        main {
+            display:flex;
+            align-items: center;
+            flex:1;
+            justify-content: center;
+            flex-direction: column;
+        }
+*/
+        .centered {
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            width: 80%;
+            flex-direction: column
+        }
+     
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div>
+
+                <a href="index.html"><img src="images/navdog.png" alt="site logo dog" height="100"></a>
+
+                <div class="navo">
+                    <a href="dogrankings.html">Dog Rankings</a>
+                    <a href="pictures.html">Dog Pics</a>
+                    <a href="secret.html"><em>ssshhh!</em></a>
+                    <a href="dogmake.html">Create a Dog</a>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+
+    <main class="centered">
+        <h1>It's time to create a dog, dog!</h1>
+        <form action="results.html">
+<!--            <div class="centered">-->
+            <p>
+                <label for="name">Name of Dog</label>
+                <input type="text" name="name" id="name">
+            </p>
+            <p>
+                <label for="jaime">Jaime of Dog</label>
+                <input type="password" name="jaime" id="jaime">
+            </p>
+            <p>
+                <label for="legs">Number of Legs</label>
+                <select name="legs" id="legs">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6+">6+</option>
+                </select>
+            </p>
+           <div class="radio-buttons">
+            <label>Color of Dog</label>
+            <input type="radio" name="nasty" value="Brown">Brown
+            <input type="radio" name="nasty" value="NotBrown"> Not Brown
+            </div>
+            <p>
+            <label for="personality">Describe your dog's personality in a brief 8-paragraph essay.</label>
+            
+            </p>
+<textarea name="personality" id="personality" rows="20" cols="50"></textarea>
+                
+<p>
+            <label></label>
+            <input type="submit" value="Create Your Dog">
+            <input type="reset" value="Throw Your Dog in the Trash and Try Again">
+            </p>
+<!--            </div>-->
+
+
+
+
+
+        </form>
+
+
+
+
+
+
+
+
+
+
+    </main>
+
+
+
+
+    <footer>
+
+
+
+
+
+
+
+
+
+
+    </footer>
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
