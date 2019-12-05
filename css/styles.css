@@ -19,11 +19,19 @@ a, div, p, header, footer, main, h1 {
     color:aliceblue
 }
 
-
+img {
+            border-radius: 15px;
+        }
 li {
     color: peru;
 }
-
+ nav a {
+            text-transform: lowercase;
+     transition: bac
+        } 
+nav a:hover {
+    color:aqua;
+}
 /*
 header {
     display: flex;
